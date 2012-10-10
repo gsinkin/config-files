@@ -1,11 +1,13 @@
 [user]
-	name = Justin Van Winkle
-	email = justin@milo.com
+	name = Gabriel Sinkin
+	email = gabriel.sinkin@gmail.com
 
 [push]
     default = matching
 
 [alias]
+    cam = commit -am
+    p = pull
     ci = commit -am
     rb = !sh -c 'git checkout --track -b $1 origin/$1'
     w = diff -M -w --color-words
