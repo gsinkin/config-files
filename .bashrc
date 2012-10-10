@@ -29,6 +29,12 @@ function milomode {
     export MAGIC_ENV=development
 }
 
+function overlord {
+    export PYTHONPATH=/overlord_pos
+    export OVERLORD_CONFIG=/overlord_pos/config/debug.conf
+    act overlord
+}
+
 eval "`dircolors -b`"
 export EDITOR='emacsclient'
 export ALTERNATE_EDITOR='emacsnw'
