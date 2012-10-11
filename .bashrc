@@ -35,6 +35,11 @@ function overlord {
     act overlord
 }
 
+function prodi {
+    act prodi
+    export PYTHONPATH=~/readfaction/prodi
+}
+
 eval "`dircolors -b`"
 export EDITOR='emacsclient'
 export ALTERNATE_EDITOR='emacsnw'
