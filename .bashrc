@@ -40,6 +40,16 @@ function prodi {
     export PYTHONPATH=~/readfaction/prodi
 }
 
+function coupon {
+    act coupon
+    export PYTHONPATH=~/coupon_marketplace
+}
+
+function testcoupon {
+    coupon
+    export ALCHEMY_CONNECTION_STRING=postgresql+psycopg2://milo@/milodb_test
+}
+
 eval "`dircolors -b`"
 export EDITOR='emacsclient'
 export ALTERNATE_EDITOR='emacsnw'
